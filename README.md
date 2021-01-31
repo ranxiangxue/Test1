@@ -6,4 +6,5 @@
 #这是merge上增加的内容
 #这是解决冲突后的内容
 version1
+version2
 
