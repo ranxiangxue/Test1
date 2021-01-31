@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="ranxiangxue.selenium.maven1.until.TestCaseReport"/>
+    <listener class-name="ranxiangxue.selenium.maven1.TestNGListennerSendEmail"/>
+  </listeners>
+  <test name="Login(failed)">
+    <parameter name="password" value="Rxx123456"/>
+    <parameter name="browser" value="chrome"/>
+    <parameter name="url" value="https://www.imooc.com/user/newlogin"/>
+    <parameter name="username" value="18349271429"/>
+    <classes>
+      <class name="ranxiangxue.selenium.maven1.runcase.LoginCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="case1" invocation-numbers="0"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ranxiangxue.selenium.maven1.runcase.LoginCase -->
+    </classes>
+  </test> <!-- Login(failed) -->
+  <test name="Cart(failed)">
+    <parameter name="coursename" value="Go+Python双语言混合开发"/>
+    <parameter name="Courseurl" value="https://coding.imooc.com/class/469.html"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="ranxiangxue.selenium.maven1.runcase.CourseCase">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="AddCartCase" invocation-numbers="0"/>
+          <include name="TestAleradyBuy"/>
+          <include name="afterClass"/>
+          <include name="afterTest"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- ranxiangxue.selenium.maven1.runcase.CourseCase -->
+    </classes>
+  </test> <!-- Cart(failed) -->
+</suite> <!-- Failed suite [Suite] -->

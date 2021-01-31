@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cart"
+           tests="2"
+           failures="2"
+           errors="0"
+           skipped="0"
+           time="16.895">
+  <properties />
+            <testcase name="AddCartCase" time="15.196" classname="ranxiangxue.selenium.maven1.runcase.CourseCase">
+                <failure type="java.lang.AssertionError"
+                  message="expected [1] but found [0]"
+              >
+<![CDATA[java.lang.AssertionError: expected [1] but found [0]
+  org.testng.Assert.fail(Assert.java:93)
+  org.testng.Assert.failNotEquals(Assert.java:512)
+  org.testng.Assert.assertEqualsImpl(Assert.java:134)
+  org.testng.Assert.assertEquals(Assert.java:115)
+  org.testng.Assert.assertEquals(Assert.java:388)
+  org.testng.Assert.assertEquals(Assert.java:398)
+  ranxiangxue.selenium.maven1.runcase.CourseCase.AddCartCase(CourseCase.java:72)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+      </failure>
+
+          </testcase>
+            <testcase name="TestAleradyBuy" time="1.699" classname="ranxiangxue.selenium.maven1.runcase.CourseCase">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="element click intercepted: Element &lt;a href=&quot;javascript:;&quot; class=&quot;js-addcart addcart&quot; data-cid=&quot;469&quot; data-type=&quot;1&quot;&gt;...&lt;/a&gt; is not clickable at point (1130, 328). Other element would receive the click: &lt;div class=&quot;moco-modal-overlay&quot; style=&quot;z-index: 901; opacity: 1;&quot;&gt;...&lt;/div&gt;
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.09 seconds
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1cd5757287168e54b817830adce9b0158d&apos;, time: &apos;2016-06-30 19:26:09&apos;
+System info: host: &apos;PC-201310021849&apos;, ip: &apos;192.168.128.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_131&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:27264}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8784_1878841615}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=88.0.4324.104, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 9e88c2e3fba2380fffa275f2398faa64"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: element click intercepted: Element <a href="javascript:;" class="js-addcart addcart" data-cid="469" data-type="1">...</a> is not clickable at point (1130, 328). Other element would receive the click: <div class="moco-modal-overlay" style="z-index: 901; opacity: 1;">...</div>
+  (Session info: chrome=88.0.4324.104)
+  (Driver info: chromedriver=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.09 seconds
+Build info: version: '2.53.1', revision: 'a36b8b1cd5757287168e54b817830adce9b0158d', time: '2016-06-30 19:26:09'
+System info: host: 'PC-201310021849', ip: '192.168.128.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0, pageLoad=300000, script=30000}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:27264}, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir8784_1878841615}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=88.0.4324.104, browserConnectionEnabled=false, proxy={}, nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]
+Session ID: 9e88c2e3fba2380fffa275f2398faa64
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+  org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+  org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:327)
+  org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:85)
+  ranxiangxue.selenium.maven1.handle.BaseHandle.ClickElement(BaseHandle.java:34)
+  ranxiangxue.selenium.maven1.handle.CourseHandle.ClickAddCart(CourseHandle.java:18)
+  ranxiangxue.selenium.maven1.runcase.CourseCase.TestAleradyBuy(CourseCase.java:84)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+  org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+  org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+  org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+  org.testng.TestRunner.privateRun(TestRunner.java:744)
+  org.testng.TestRunner.run(TestRunner.java:602)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+  org.testng.SuiteRunner.run(SuiteRunner.java:289)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+  org.testng.TestNG.runSuites(TestNG.java:1144)
+  org.testng.TestNG.run(TestNG.java:1115)
+  org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+  org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+  org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+  
+</testsuite>

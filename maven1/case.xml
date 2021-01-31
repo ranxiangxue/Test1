@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests" thread-count="2">
+ <test name="Test">
+    <!-- <classes>
+      <class name="ranxiangxue.selenium.maven1.HandleCookie"/>
+    </classes> -->
+    <parameter name="username" value="18349271429"></parameter>
+	<parameter name="password" value="Rxx123456"></parameter>
+	<parameter name="url" value="https://www.imooc.com/user/newlogin"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="Courseurl" value="https://coding.imooc.com/class/469.html"></parameter>
+	<parameter name="coursename" value="Go+Python双语言混合开发"></parameter>
+	<groups>
+	<run>
+		<include name="success"></include>
+	</run>
+   </groups>
+      <classes>
+			<class name="ranxiangxue.selenium.maven1.runcase.CourseCase">
+				<methods>
+					<include name="beforeClass"></include>
+					<exclude name="TestAleradyBuy"></exclude>
+				</methods>
+			</class>
+		</classes>
+	<!-- <packages>
+		<package name="ranxiangxue.selenium.maven1.runcase"></package>
+	</packages> -->
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

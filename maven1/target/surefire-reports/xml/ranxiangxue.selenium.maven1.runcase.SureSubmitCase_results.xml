@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SureOrder"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.443">
+  <properties />
+  
+  
+            <testcase name="SureSubmit" time="2.443" classname="ranxiangxue.selenium.maven1.runcase.SureSubmitCase" />
+      
+</testsuite>

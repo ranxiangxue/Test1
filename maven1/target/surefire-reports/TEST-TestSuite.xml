@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="0" name="TestSuite" time="21.406" errors="0" skipped="0">
+  <properties>
+    <property name="PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="env.FTP_PASSIVE" value="1"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="LG_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="CATALINA_HOME" value="C:\Program Files (x86)\apache-tomcat-9.0.0.M11"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="env.POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="env.USERNAME" value="PC-201310021849$"/>
+    <property name="env.HUDSON_HOME" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
+    <property name="PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="USERDOMAIN" value="WORKGROUP"/>
+    <property name="Android" value="D:\adt-bundle-windows-x86_64-20131030\sdk\platform-tools"/>
+    <property name="env.LG_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="env.COMPUTERNAME" value="PC-201310021849"/>
+    <property name="CURR_DIR" value="C:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="env.NODE_NAME" value="master"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="JOB_NAME" value="SeleniumImooc"/>
+    <property name="COMPUTERNAME" value="PC-201310021849"/>
+    <property name="env.MAVEN_OPTS" value="-Xmx256m -Dfile.encoding=utf-8"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="env.NODE_LABELS" value="master"/>
+    <property name="env.JENKINS_SERVER_COOKIE" value="a01cbf9dcd980251"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="env.USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="env.SERVICE_ID" value="jenkins"/>
+    <property name="user.name" value="PC-201310021849$"/>
+    <property name="env.LANG" value="zh_CN.utf8"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="windir" value="C:\Windows"/>
+    <property name="env.LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="env.WINDOWS_TRACING_LOGFILE" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="env.ASL.LOG" value="Destination=file"/>
+    <property name="env.COMMONPROGRAMW6432" value="C:\Program Files\Common Files"/>
+    <property name="surefire.test.class.path" value="C:\Users\Administrator\eclipse-workspace\maven1\target\test-classes;C:\Users\Administrator\eclipse-workspace\maven1\target\classes;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-java\2.53.1\selenium-java-2.53.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\2.53.1\selenium-chrome-driver-2.53.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\2.53.1\selenium-remote-driver-2.53.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\cglib\cglib-nodep\2.1_3\cglib-nodep-2.1_3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-api\2.53.1\selenium-api-2.53.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpclient\4.5.1\httpclient-4.5.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpcore\4.4.3\httpcore-4.4.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\2.53.1\selenium-edge-driver-2.53.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-io\commons-io\2.4\commons-io-2.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\htmlunit-driver\2.21\htmlunit-driver-2.21.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\sourceforge\htmlunit\htmlunit\2.21\htmlunit-2.21.jar;C:\Windows\system32\config\systemprofile\.m2\repository\xalan\xalan\2.7.2\xalan-2.7.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\xalan\serializer\2.7.2\serializer-2.7.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-lang3\3.4\commons-lang3-3.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\httpcomponents\httpmime\4.5.2\httpmime-4.5.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\sourceforge\htmlunit\htmlunit-core-js\2.17\htmlunit-core-js-2.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\sourceforge\htmlunit\neko-htmlunit\2.21\neko-htmlunit-2.21.jar;C:\Windows\system32\config\systemprofile\.m2\repository\xerces\xercesImpl\2.11.0\xercesImpl-2.11.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\xml-apis\xml-apis\1.4.01\xml-apis-1.4.01.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\sourceforge\cssparser\cssparser\0.9.18\cssparser-0.9.18.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\w3c\css\sac\1.3\sac-1.3.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\websocket\websocket-client\9.2.15.v20160210\websocket-client-9.2.15.v20160210.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-util\9.2.15.v20160210\jetty-util-9.2.15.v20160210.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\jetty-io\9.2.15.v20160210\jetty-io-9.2.15.v20160210.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\websocket\websocket-common\9.2.15.v20160210\websocket-common-9.2.15.v20160210.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\eclipse\jetty\websocket\websocket-api\9.2.15.v20160210\websocket-api-9.2.15.v20160210.jar;C:\Windows\system32\config\systemprofile\.m2\repository\commons-collections\commons-collections\3.2.2\commons-collections-3.2.2.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\2.53.1\selenium-firefox-driver-2.53.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\2.53.1\selenium-ie-driver-2.53.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna\4.1.0\jna-4.1.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\net\java\dev\jna\jna-platform\4.1.0\jna-platform-4.1.0.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\2.53.1\selenium-safari-driver-2.53.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\io\netty\netty\3.5.7.Final\netty-3.5.7.Final.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-support\2.53.1\selenium-support-2.53.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\seleniumhq\selenium\selenium-leg-rc\2.53.1\selenium-leg-rc-2.53.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\testng\testng\6.11\testng-6.11.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\beust\jcommander\1.64\jcommander-1.64.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\yaml\snakeyaml\1.17\snakeyaml-1.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\apache\commons\commons-email\1.5\commons-email-1.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\sun\mail\javax.mail\1.5.6\javax.mail-1.5.6.jar;C:\Windows\system32\config\systemprofile\.m2\repository\javax\activation\activation\1.1\activation-1.1.jar;C:\Windows\system32\config\systemprofile\.m2\repository\com\google\code\gson\gson\2.8.5\gson-2.8.5.jar;C:\Windows\system32\config\systemprofile\.m2\repository\org\uncommons\reportng\1.1.4\reportng-1.1.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\velocity\velocity\1.4\velocity-1.4.jar;C:\Windows\system32\config\systemprofile\.m2\repository\velocity\velocity-dep\1.4\velocity-dep-1.4.jar;C:\Users\Administrator\eclipse-workspace\maven1\velocity-dep-1.4.jar;C:\Users\Administrator\eclipse-workspace\maven1\guice-3.0.jar;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="LOCALAPPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Local"/>
+    <property name="RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SeleniumImooc/10/display/redirect?page=changes"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="user.script" value=""/>
+    <property name="path.separator" value=";"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="BUILD_TAG" value="jenkins-SeleniumImooc-10"/>
+    <property name="TERM" value="dumb"/>
+    <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 58 Stepping 9, GenuineIntel"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="file.encoding" value="utf-8"/>
+    <property name="LOG_FILE" value="C:\Users\ADMINI~1\AppData\Local\Temp\ihp_custom_batches.log"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven35Main C:\Program Files\Java\apache-maven-3.6.3 C:\Windows\System32\config\systemprofile\AppData\Local\Jenkins\war\WEB-INF\lib\remoting-4.6.jar C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar 31292"/>
+    <property name="HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="env.RUN_DISPLAY_URL" value="http://localhost:8080/job/SeleniumImooc/10/display/redirect"/>
+    <property name="env.NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="JENKINS_SERVER_COOKIE" value="a01cbf9dcd980251"/>
+    <property name="env.APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_131\bin;D:\ORACLE\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Rational\common;c:\windows\system32;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Program Files (x86)\apache-tomcat-9.0.0.M11\lib;C:\Program Files (x86)\apache-tomcat-9.0.0.M11\bin;C:\Program Files\Java\jre1.8.0_131;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\OpenVPN\bin;C:\Windows;C:\Windows\system32\wbem;"/>
+    <property name="env.LOGGER_CONFIG_PATH" value="C:\Program Files (x86)\HP\LoadRunner\dat\ltlogconf.xml"/>
+    <property name="WINSW_SERVICE_ID" value="jenkins"/>
+    <property name="env.WINDIR" value="C:\Windows"/>
+    <property name="env.BUILD_TAG" value="jenkins-SeleniumImooc-10"/>
+    <property name="LOGGER_CONFIG_PATH" value="C:\Program Files (x86)\HP\LoadRunner\dat\ltlogconf.xml"/>
+    <property name="VISUALSVN_SERVER" value="C:\Program Files (x86)\VisualSVN Server\"/>
+    <property name="BASE" value="D:\Jenkins"/>
+    <property name="java.io.tmpdir" value="C:\Windows\TEMP\"/>
+    <property name="APPDATA" value="C:\Windows\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="user.language" value="zh"/>
+    <property name="line.separator" value="
+"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/SeleniumImooc/10/"/>
+    <property name="env.CATALINA_BASE" value="C:\Program Files (x86)\apache-tomcat-9.0.0.M11"/>
+    <property name="M2_HOME" value="C:\Program Files\Java\apache-maven-3.6.3"/>
+    <property name="env.COMMONPROGRAMFILES" value="C:\Program Files\Common Files"/>
+    <property name="env.CURR_DIR" value="C:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="lnkenv" value="C:\Users\Administrator\AppData\Roaming\360se6\Application\360se.exe"/>
+    <property name="env.JOB_NAME" value="SeleniumImooc"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="env.BUILD_DISPLAY_NAME" value="#10"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="localRepository" value="C:\Windows\system32\config\systemprofile\.m2\repository"/>
+    <property name="BUILD_DISPLAY_NAME" value="#10"/>
+    <property name="env.JOB_DISPLAY_URL" value="http://localhost:8080/job/SeleniumImooc/display/redirect"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="env.BUILD_URL" value="http://localhost:8080/job/SeleniumImooc/10/"/>
+    <property name="env.M2_HOME" value="C:\Program Files\Java\apache-maven-3.6.3"/>
+    <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CATALINA_BASE" value="C:\Program Files (x86)\apache-tomcat-9.0.0.M11"/>
+    <property name="env.RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/SeleniumImooc/10/display/redirect?page=artifacts"/>
+    <property name="TARGETDIR" value="C:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="HUDSON_SERVER_COOKIE" value="a01cbf9dcd980251"/>
+    <property name="JRE_HOME" value="C:\Program Files\Java\jre1.8.0_131"/>
+    <property name="WORKSPACE_TMP" value="C:/Users/Administrator/eclipse-workspace\maven1@tmp"/>
+    <property name="DEVMGR_SHOW_DETAILS" value="1"/>
+    <property name="env.POM_ARTIFACTID" value="test"/>
+    <property name="env.WORKSPACE_TMP" value="C:/Users/Administrator/eclipse-workspace\maven1@tmp"/>
+    <property name="MAVEN_HOME" value="C:\Program Files\Java\apache-maven-3.6.3"/>
+    <property name="env.PSMODULEPATH" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="maven3.interceptor.common" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.13.jar"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="ANALYSIS_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.HUDSON_SERVER_COOKIE" value="a01cbf9dcd980251"/>
+    <property name="env.PUBLIC" value="C:\Users\Public"/>
+    <property name="env.ANALYSIS_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.USERDOMAIN" value="WORKGROUP"/>
+    <property name="env.TARGETDIR" value="C:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="env.VISUALSVN_SERVER" value="C:\Program Files (x86)\VisualSVN Server\"/>
+    <property name="env.PROCESSOR_LEVEL" value="6"/>
+    <property name="env.PROGRAMFILES(X86)" value="C:\Program Files (x86)"/>
+    <property name="TNS_ADMIN" value=" D:\Oracle\product\11.2.0\dbhome_1\NETWORK\ADMIN"/>
+    <property name="env.BUILD_NUMBER" value="10"/>
+    <property name="EXTRACTPATH" value="C:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="env.TMP" value="C:\Windows\TEMP"/>
+    <property name="env.TERM" value="dumb"/>
+    <property name="BUILD_NUMBER" value="10"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="env.JOB_URL" value="http://localhost:8080/job/SeleniumImooc/"/>
+    <property name="env.OS" value="Windows_NT"/>
+    <property name="maven3.interceptor" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-interceptor-1.13.jar"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_131\bin;D:\ORACLE\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Rational\common;c:\windows\system32;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Program Files (x86)\apache-tomcat-9.0.0.M11\lib;C:\Program Files (x86)\apache-tomcat-9.0.0.M11\bin;C:\Program Files\Java\jre1.8.0_131;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\OpenVPN\bin;C:\Windows;C:\Windows\system32\wbem;;."/>
+    <property name="env.LNKENV" value="C:\Users\Administrator\AppData\Roaming\360se6\Application\360se.exe"/>
+    <property name="env.PROGRAMW6432" value="C:\Program Files"/>
+    <property name="env.PATH" value="C:\Program Files\Java\apache-maven-3.6.3/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\Program Files\Java\jdk1.8.0_131/bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files\Java\apache-maven-3.6.3\bin;C:\Program Files\Java\jdk1.8.0_131\bin;D:\ORACLE\product\11.2.0\dbhome_1\bin;C:\Program Files (x86)\Rational\common;c:\windows\system32;C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files\Java\jdk1.8.0_131\jre\bin;C:\Program Files (x86)\apache-tomcat-9.0.0.M11\lib;C:\Program Files (x86)\apache-tomcat-9.0.0.M11\bin;C:\Program Files\Java\jre1.8.0_131;C:\Program Files (x86)\GtkSharp\2.12\bin;C:\strawberry\c\bin;C:\strawberry\perl\bin;C:\Program Files\OpenVPN\bin;C:\Windows;C:\Windows\system32\wbem;"/>
+    <property name="env.HUDSON_URL" value="http://localhost:8080/"/>
+    <property name="WINSW_EXECUTABLE" value="D:\Jenkins\jenkins.exe"/>
+    <property name="env.WINSW_SERVICE_ID" value="jenkins"/>
+    <property name="env.JENKINS_URL" value="http://localhost:8080/"/>
+    <property name="POM_ARTIFACTID" value="test"/>
+    <property name="POM_GROUPID" value="ranxiangxue.selenium"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="basedir" value="C:\Users\Administrator\eclipse-workspace\maven1"/>
+    <property name="env.TNS_ADMIN" value=" D:\Oracle\product\11.2.0\dbhome_1\NETWORK\ADMIN"/>
+    <property name="LR_ROOT" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="JOB_URL" value="http://localhost:8080/job/SeleniumImooc/"/>
+    <property name="env.LOG_FILE" value="C:\Users\ADMINI~1\AppData\Local\Temp\ihp_custom_batches.log"/>
+    <property name="MYSQL_HOME" value="C:\Program Files (x86)\MySQL\MySQL Server 5.5"/>
+    <property name="env.JENKINS_HOME" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
+    <property name="env.BASE" value="D:\Jenkins"/>
+    <property name="env.SYSTEMROOT" value="C:\Windows"/>
+    <property name="RUN_DISPLAY_URL" value="http://localhost:8080/job/SeleniumImooc/10/display/redirect"/>
+    <property name="env.RUN_CHANGES_DISPLAY_URL" value="http://localhost:8080/job/SeleniumImooc/10/display/redirect?page=changes"/>
+    <property name="env.LR_ROOT" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.COMSPEC" value="C:\Windows\system32\cmd.exe"/>
+    <property name="FTP_PASSIVE" value="1"/>
+    <property name="JENKINS_HOME" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
+    <property name="BUILD_ID" value="10"/>
+    <property name="TEMP" value="C:\Windows\TEMP"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="env.SYSTEMDRIVE" value="C:"/>
+    <property name="VUGEN_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.PROCESSOR_REVISION" value="3a09"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="env.POM_DISPLAYNAME" value="maven1"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="PROCESSOR_REVISION" value="3a09"/>
+    <property name="env.GTK_BASEPATH" value="C:\Program Files (x86)\GtkSharp\2.12\"/>
+    <property name="env.DEVMGR_SHOW_DETAILS" value="1"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="HUDSON_HOME" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="PATH+MAVEN" value="C:\Program Files\Java\apache-maven-3.6.3/bin"/>
+    <property name="env.JRE_HOME" value="C:\Program Files\Java\jre1.8.0_131"/>
+    <property name="GTK_BASEPATH" value="C:\Program Files (x86)\GtkSharp\2.12\"/>
+    <property name="RUN_ARTIFACTS_DISPLAY_URL" value="http://localhost:8080/job/SeleniumImooc/10/display/redirect?page=artifacts"/>
+    <property name="env.PROGRAMFILES" value="C:\Program Files"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_131"/>
+    <property name="env.PROGRAMDATA" value="C:\ProgramData"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="env.MAVEN_HOME" value="C:\Program Files\Java\apache-maven-3.6.3"/>
+    <property name="USERPROFILE" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="asl.log" value="Destination=file"/>
+    <property name="JOB_DISPLAY_URL" value="http://localhost:8080/job/SeleniumImooc/display/redirect"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Windows\system32\config\systemprofile"/>
+    <property name="USERNAME" value="PC-201310021849$"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_131"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="user.dir" value="C:\Users\Administrator\eclipse-workspace\maven1"/>
+    <property name="maven.conf" value="C:\Program Files\Java\apache-maven-3.6.3\conf"/>
+    <property name="env.COMMONPROGRAMFILES(X86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="env.FP_NO_HOST_CHECK" value="NO"/>
+    <property name="TMP" value="C:\Windows\TEMP"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="env.ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="env.RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/SeleniumImooc/10/display/redirect?page=tests"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="webdriver.chrome.driver" value="D:\Java\chromedriver_win32\chromedriver.exe"/>
+    <property name="env.WINSW_EXECUTABLE" value="D:\Jenkins\jenkins.exe"/>
+    <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.class.path" value="C:\Windows\system32\config\systemprofile\AppData\Local\Jenkins\.jenkins\plugins\maven-plugin\WEB-INF\lib\maven35-agent-1.13.jar;C:\Program Files\Java\apache-maven-3.6.3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\Java\apache-maven-3.6.3/conf/logging"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="MAVEN_OPTS" value="-Xmx256m -Dfile.encoding=utf-8"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.build.version" value="Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)"/>
+    <property name="WORKSPACE" value="C:/Users/Administrator/eclipse-workspace/maven1"/>
+    <property name="ComSpec" value="C:\Windows\system32\cmd.exe"/>
+    <property name="env.WINDOWS_TRACING_FLAGS" value="3"/>
+    <property name="env.POM_PACKAGING" value="jar"/>
+    <property name="RUN_TESTS_DISPLAY_URL" value="http://localhost:8080/job/SeleniumImooc/10/display/redirect?page=tests"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="LANG" value="zh_CN.utf8"/>
+    <property name="SystemRoot" value="C:\Windows"/>
+    <property name="env.MYSQL_HOME" value="C:\Program Files (x86)\MySQL\MySQL Server 5.5"/>
+    <property name="env.BUILD_ID" value="10"/>
+    <property name="CommonProgramFiles" value="C:\Program Files\Common Files"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="file.separator" value="\"/>
+    <property name="LR_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="ProgramFiles" value="C:\Program Files"/>
+    <property name="env.VUGEN_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="env.WORKSPACE" value="C:/Users/Administrator/eclipse-workspace/maven1"/>
+    <property name="maven.version" value="3.6.3"/>
+    <property name="env.TEMP" value="C:\Windows\TEMP"/>
+    <property name="env.ANDROID" value="D:\adt-bundle-windows-x86_64-20131030\sdk\platform-tools"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_131/bin"/>
+    <property name="user.country" value="CN"/>
+    <property name="env.EXTRACTPATH" value="C:\Program Files (x86)\HP\LoadRunner\dat\Setup\LoadRunner\MSBuild\..\..\..\.."/>
+    <property name="env.EXECUTOR_NUMBER" value="0"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="env.LR_PATH" value="C:\Program Files (x86)\HP\LoadRunner\"/>
+    <property name="maven.home" value="C:\Program Files\Java\apache-maven-3.6.3"/>
+    <property name="JOB_BASE_NAME" value="SeleniumImooc"/>
+    <property name="env.JOB_BASE_NAME" value="SeleniumImooc"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="env.POM_GROUPID" value="ranxiangxue.selenium"/>
+    <property name="env.HUDSON_COOKIE" value="de28dba3-bb22-4f07-92c5-4679393a1c5c"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="env.CATALINA_HOME" value="C:\Program Files (x86)\apache-tomcat-9.0.0.M11"/>
+    <property name="POM_DISPLAYNAME" value="maven1"/>
+    <property name="sun.arch.data.model" value="64"/>
+  </properties>
+  <testcase classname="ranxiangxue.selenium.maven1.runcase.LoginCase" name="case1" time="3.663"/>
+</testsuite>

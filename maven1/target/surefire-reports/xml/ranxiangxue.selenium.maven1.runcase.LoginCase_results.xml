@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Login"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="2.817">
+  <properties />
+  
+  
+            <testcase name="case1" time="2.817" classname="ranxiangxue.selenium.maven1.runcase.LoginCase" />
+      
+</testsuite>
