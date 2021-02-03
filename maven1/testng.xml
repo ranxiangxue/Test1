@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="org.uncommons.reportng.HTMLReporter"></listener>
+	<listener class-name="org.uncommons.reportng.JUnitXMLReporter"></listener>
+	<listener class-name="ranxiangxue.selenium.maven1.until.TestCaseReport"></listener>
+	<listener class-name="ranxiangxue.selenium.maven1.TestNGListennerSendEmail"></listener>
+</listeners>	
+	<test name="Login">
+	<parameter name="username" value="18349271429"></parameter>
+	<parameter name="password" value="Rxx123456"></parameter>
+	<parameter name="url" value="https://www.imooc.com/user/newlogin"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="ranxiangxue.selenium.maven1.runcase.LoginCase">
+				<methods>
+					<include name="case1"></include>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="Cart">
+	<parameter name="Courseurl" value="https://coding.imooc.com/class/469.html"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+	<parameter name="coursename" value="Go+Python双语言混合开发"></parameter>
+		<classes>
+			<class name="ranxiangxue.selenium.maven1.runcase.CourseCase">
+				<methods>
+					<include name="AddCartCase"></include>
+					<exclude name="TestAleradyBuy"></exclude>
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+	<test name="SureOrder">
+	<parameter name="SureOrderurl" value="https://order.imooc.com/pay/confirm?goods_ids=2235"></parameter>
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="ranxiangxue.selenium.maven1.runcase.SureSubmitCase">
+			<methods>
+			        <include name="SureSubmit"></include>
+					<exclude name="LoginSureSubmit"></exclude>				
+				</methods>		
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

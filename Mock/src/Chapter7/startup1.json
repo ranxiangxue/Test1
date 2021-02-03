@@ -1,0 +1,12 @@
+xml
+[
+  {
+     "description":"这是我们的第一个mock例子"
+     "request":{
+        "uri":"/demo"
+      },
+      "request":{
+         "text":"第一个moco框架demo"
+      }
+  }
+]

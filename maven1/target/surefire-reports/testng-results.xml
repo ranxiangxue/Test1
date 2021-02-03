@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17267" started-at="2021-01-24T16:21:39Z" finished-at="2021-01-24T16:21:57Z">
+    <groups>
+    </groups>
+    <test name="Login" duration-ms="17267" started-at="2021-01-24T16:21:39Z" finished-at="2021-01-24T16:21:57Z">
+      <class name="ranxiangxue.selenium.maven1.runcase.LoginCase">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:ranxiangxue.selenium.maven1.runcase.LoginCase@53b32d7]" name="beforeTest" is-config="true" duration-ms="15" started-at="2021-01-25T00:21:39Z" finished-at="2021-01-25T00:21:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass(java.lang.String, java.lang.String)[pri:0, instance:ranxiangxue.selenium.maven1.runcase.LoginCase@53b32d7]" name="beforeClass" is-config="true" duration-ms="13158" started-at="2021-01-25T00:21:39Z" finished-at="2021-01-25T00:21:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.imooc.com/user/newlogin]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="case1(java.lang.String, java.lang.String)[pri:0, instance:ranxiangxue.selenium.maven1.runcase.LoginCase@53b32d7]" name="case1" duration-ms="2817" started-at="2021-01-25T00:21:53Z" finished-at="2021-01-25T00:21:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[18349271429]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rxx123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- case1 -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:ranxiangxue.selenium.maven1.runcase.LoginCase@53b32d7]" name="afterClass" is-config="true" duration-ms="159" started-at="2021-01-25T00:21:56Z" finished-at="2021-01-25T00:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:ranxiangxue.selenium.maven1.runcase.LoginCase@53b32d7]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-01-25T00:21:57Z" finished-at="2021-01-25T00:21:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- ranxiangxue.selenium.maven1.runcase.LoginCase -->
+    </test> <!-- Login -->
+  </suite> <!-- Suite -->
+</testng-results>
